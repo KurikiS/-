@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  
+      <meta http-equiv="refresh" content="60">
+      
+<title>Hadoop job_201801311456_028 on hadoop01</title>
+<link rel="stylesheet" type="text/css" href="2million8_3_files/hadoop.css">
+</head>
+<body>
+<h1>Hadoop job_201801311456_028 on <a href="http://localhost:50030/jobtracker.jsp">hadoop01</a></h1>
+
+<b>User:</b> giraph<br>
+<b>Job Name:</b> Giraph: Bipartitematching$VertexComputation<br>
+<b>Job File:</b> <a href="http://localhost:50030/jobconf.jsp?jobid=job_201801311456_028">hdfs://hadoop01:9000/home/giraph/tmp/mapred/staging/giraph/.staging/job_201801311456_0028/job.xml</a><br>
+<b>Submit Host:</b> hadoop01<br>
+<b>Submit Host Address:</b> 192.168.11.101<br>
+<b>Job-ACLs: All users are allowed</b><br><b>Job Setup:</b><a href="http://localhost:50030/jobtasks.jsp?jobid=job_201801311456_028&amp;type=setup&amp;pagenum=1&amp;state=completed"> Successful</a><br>
+<b>Status:</b> Succeeded<br>
+<b>Started at:</b> Wed Jan 31 16:53:58 JST 2018<br>
+<b>Finished at:</b> Wed Jan 31 16:54:46 JST 2018<br>
+<b>Finished in:</b> 47sec<br>
+<b>Job Cleanup:</b><a href="http://localhost:50030/jobtasks.jsp?jobid=job_201801311456_028&amp;type=cleanup&amp;pagenum=1&amp;state=completed"> Successful</a><br>
+<hr>
+<table cellspacing="2" cellpadding="5" border="2"><tbody><tr><th>Kind</th><th>% Complete</th><th>Num Tasks</th><th>Pending</th><th>Running</th><th>Complete</th><th>Killed</th><th><a href="http://localhost:50030/jobfailures.jsp?jobid=job_201801311456_028">Failed/Killed<br>Task Attempts</a></th></tr>
+<tr><th><a href="http://localhost:50030/jobtasks.jsp?jobid=job_201801311456_028&amp;type=map&amp;pagenum=1">map</a></th><td align="right">100.00%<table width="80px" border="1px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td align="right">9</td><td align="right">0</td><td align="right">0</td><td align="right"><a href="http://localhost:50030/jobtasks.jsp?jobid=job_201801311456_028&amp;type=map&amp;pagenum=1&amp;state=completed">9</a></td><td align="right">0</td><td align="right">0 / 0</td></tr>
+<tr><th><a href="http://localhost:50030/jobtasks.jsp?jobid=job_201801311456_028&amp;type=reduce&amp;pagenum=1">reduce</a></th><td align="right">100.00%<table width="80px" border="1px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0 / 0</td></tr>
+</tbody></table>
+
+    <p>
+    </p><table cellspacing="2" cellpadding="5" border="2">
+    <tbody><tr>
+      <th><br></th>
+      <th>Counter</th>
+      <th>Map</th>
+      <th>Reduce</th>
+      <th>Total</th>
+    </tr>
+    
+        <tr>
+          
+            <td rowspan="8">
+            Map-Reduce Framework</td>
+            
+          <td>Spilled Records</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Virtual memory (bytes) snapshot</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">142,620,717,056</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Map input records</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">9</td>
+        </tr>
+        
+        <tr>
+          
+          <td>SPLIT_RAW_BYTES</td>
+          <td align="right">396</td>
+          <td align="right">0</td>
+          <td align="right">396</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Map output records</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Physical memory (bytes) snapshot</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">25,379,004,416</td>
+        </tr>
+        
+        <tr>
+          
+          <td>CPU time spent (ms)</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">440,410</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Total committed heap usage (bytes)</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">25,843,204,096</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="1">
+            Zookeeper halt node</td>
+            
+          <td>/_hadoopBsp/job_201801311456_0028/_haltComputation</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="1">
+            Zookeeper server:port</td>
+            
+          <td>hadoop02:22181</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="55">
+            Giraph Timers</td>
+            
+          <td>Superstep 22 VertexComputation (ms)</td>
+          <td align="right">1,206</td>
+          <td align="right">0</td>
+          <td align="right">1,206</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 10 VertexComputation (ms)</td>
+          <td align="right">470</td>
+          <td align="right">0</td>
+          <td align="right">470</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 17 VertexComputation (ms)</td>
+          <td align="right">95</td>
+          <td align="right">0</td>
+          <td align="right">95</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 31 VertexComputation (ms)</td>
+          <td align="right">240</td>
+          <td align="right">0</td>
+          <td align="right">240</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 38 VertexComputation (ms)</td>
+          <td align="right">1,215</td>
+          <td align="right">0</td>
+          <td align="right">1,215</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 13 VertexComputation (ms)</td>
+          <td align="right">247</td>
+          <td align="right">0</td>
+          <td align="right">247</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 34 VertexComputation (ms)</td>
+          <td align="right">162</td>
+          <td align="right">0</td>
+          <td align="right">162</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Input superstep (ms)</td>
+          <td align="right">4,249</td>
+          <td align="right">0</td>
+          <td align="right">4,249</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 40 VertexComputation (ms)</td>
+          <td align="right">214</td>
+          <td align="right">0</td>
+          <td align="right">214</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 0 VertexComputation (ms)</td>
+          <td align="right">298</td>
+          <td align="right">0</td>
+          <td align="right">298</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 25 VertexComputation (ms)</td>
+          <td align="right">99</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 6 VertexComputation (ms)</td>
+          <td align="right">1,717</td>
+          <td align="right">0</td>
+          <td align="right">1,717</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 29 VertexComputation (ms)</td>
+          <td align="right">314</td>
+          <td align="right">0</td>
+          <td align="right">314</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 2 VertexComputation (ms)</td>
+          <td align="right">2,089</td>
+          <td align="right">0</td>
+          <td align="right">2,089</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 46 VertexComputation (ms)</td>
+          <td align="right">1,871</td>
+          <td align="right">0</td>
+          <td align="right">1,871</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 44 VertexComputation (ms)</td>
+          <td align="right">1,245</td>
+          <td align="right">0</td>
+          <td align="right">1,245</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 37 VertexComputation (ms)</td>
+          <td align="right">229</td>
+          <td align="right">0</td>
+          <td align="right">229</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 30 VertexComputation (ms)</td>
+          <td align="right">1,177</td>
+          <td align="right">0</td>
+          <td align="right">1,177</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 18 VertexComputation (ms)</td>
+          <td align="right">198</td>
+          <td align="right">0</td>
+          <td align="right">198</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 7 VertexComputation (ms)</td>
+          <td align="right">265</td>
+          <td align="right">0</td>
+          <td align="right">265</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 14 VertexComputation (ms)</td>
+          <td align="right">1,192</td>
+          <td align="right">0</td>
+          <td align="right">1,192</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 33 VertexComputation (ms)</td>
+          <td align="right">99</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 41 VertexComputation (ms)</td>
+          <td align="right">91</td>
+          <td align="right">0</td>
+          <td align="right">91</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 26 VertexComputation (ms)</td>
+          <td align="right">162</td>
+          <td align="right">0</td>
+          <td align="right">162</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Total (ms)</td>
+          <td align="right">39,238</td>
+          <td align="right">0</td>
+          <td align="right">39,238</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 3 VertexComputation (ms)</td>
+          <td align="right">483</td>
+          <td align="right">0</td>
+          <td align="right">483</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 49 VertexComputation (ms)</td>
+          <td align="right">140</td>
+          <td align="right">0</td>
+          <td align="right">140</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 45 VertexComputation (ms)</td>
+          <td align="right">224</td>
+          <td align="right">0</td>
+          <td align="right">224</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 19 VertexComputation (ms)</td>
+          <td align="right">164</td>
+          <td align="right">0</td>
+          <td align="right">164</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 24 VertexComputation (ms)</td>
+          <td align="right">127</td>
+          <td align="right">0</td>
+          <td align="right">127</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 15 VertexComputation (ms)</td>
+          <td align="right">237</td>
+          <td align="right">0</td>
+          <td align="right">237</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 36 VertexComputation (ms)</td>
+          <td align="right">1,296</td>
+          <td align="right">0</td>
+          <td align="right">1,296</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 8 VertexComputation (ms)</td>
+          <td align="right">141</td>
+          <td align="right">0</td>
+          <td align="right">141</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Initialize (ms)</td>
+          <td align="right">3,313</td>
+          <td align="right">0</td>
+          <td align="right">3,313</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 11 VertexComputation (ms)</td>
+          <td align="right">324</td>
+          <td align="right">0</td>
+          <td align="right">324</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 27 VertexComputation (ms)</td>
+          <td align="right">132</td>
+          <td align="right">0</td>
+          <td align="right">132</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 21 VertexComputation (ms)</td>
+          <td align="right">241</td>
+          <td align="right">0</td>
+          <td align="right">241</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 42 VertexComputation (ms)</td>
+          <td align="right">163</td>
+          <td align="right">0</td>
+          <td align="right">163</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 4 VertexComputation (ms)</td>
+          <td align="right">1,457</td>
+          <td align="right">0</td>
+          <td align="right">1,457</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 48 VertexComputation (ms)</td>
+          <td align="right">112</td>
+          <td align="right">0</td>
+          <td align="right">112</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 23 VertexComputation (ms)</td>
+          <td align="right">231</td>
+          <td align="right">0</td>
+          <td align="right">231</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Shutdown (ms)</td>
+          <td align="right">9,037</td>
+          <td align="right">0</td>
+          <td align="right">9,037</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 16 VertexComputation (ms)</td>
+          <td align="right">118</td>
+          <td align="right">0</td>
+          <td align="right">118</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 32 VertexComputation (ms)</td>
+          <td align="right">124</td>
+          <td align="right">0</td>
+          <td align="right">124</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 35 VertexComputation (ms)</td>
+          <td align="right">135</td>
+          <td align="right">0</td>
+          <td align="right">135</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 39 VertexComputation (ms)</td>
+          <td align="right">230</td>
+          <td align="right">0</td>
+          <td align="right">230</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 9 VertexComputation (ms)</td>
+          <td align="right">137</td>
+          <td align="right">0</td>
+          <td align="right">137</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 12 VertexComputation (ms)</td>
+          <td align="right">1,373</td>
+          <td align="right">0</td>
+          <td align="right">1,373</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Setup (ms)</td>
+          <td align="right">20</td>
+          <td align="right">0</td>
+          <td align="right">20</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 47 VertexComputation (ms)</td>
+          <td align="right">271</td>
+          <td align="right">0</td>
+          <td align="right">271</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 5 VertexComputation (ms)</td>
+          <td align="right">300</td>
+          <td align="right">0</td>
+          <td align="right">300</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 20 VertexComputation (ms)</td>
+          <td align="right">1,407</td>
+          <td align="right">0</td>
+          <td align="right">1,407</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 28 VertexComputation (ms)</td>
+          <td align="right">1,165</td>
+          <td align="right">0</td>
+          <td align="right">1,165</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 43 VertexComputation (ms)</td>
+          <td align="right">134</td>
+          <td align="right">0</td>
+          <td align="right">134</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep 1 VertexComputation (ms)</td>
+          <td align="right">161</td>
+          <td align="right">0</td>
+          <td align="right">161</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="1">
+            File Input Format Counters </td>
+            
+          <td>Bytes Read</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="1">
+            Zookeeper base path</td>
+            
+          <td>/_hadoopBsp/job_201801311456_0028</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="14">
+            Giraph Stats</td>
+            
+          <td>Aggregate bytes stored to local disks (out-of-core)</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Aggregate finished vertices</td>
+          <td align="right">1,999,946</td>
+          <td align="right">0</td>
+          <td align="right">1,999,946</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Aggregate edges</td>
+          <td align="right">20,000,000</td>
+          <td align="right">0</td>
+          <td align="right">20,000,000</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Current master task partition</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Superstep</td>
+          <td align="right">50</td>
+          <td align="right">0</td>
+          <td align="right">50</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Aggregate sent message bytes</td>
+          <td align="right">5,741,564,945</td>
+          <td align="right">0</td>
+          <td align="right">5,741,564,945</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Aggregate vertices</td>
+          <td align="right">1,999,946</td>
+          <td align="right">0</td>
+          <td align="right">1,999,946</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Aggregate bytes loaded from local disks (out-of-core)</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Sent messages</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Sent message bytes</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Current workers</td>
+          <td align="right">8</td>
+          <td align="right">0</td>
+          <td align="right">8</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Last checkpointed superstep</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Aggregate sent messages</td>
+          <td align="right">273,360,206</td>
+          <td align="right">0</td>
+          <td align="right">273,360,206</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Lowest percentage of graph in memory so far (out-of-core)</td>
+          <td align="right">100</td>
+          <td align="right">0</td>
+          <td align="right">100</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="3">
+            FileSystemCounters</td>
+            
+          <td>HDFS_BYTES_READ</td>
+          <td align="right">376,799,837</td>
+          <td align="right">0</td>
+          <td align="right">376,799,837</td>
+        </tr>
+        
+        <tr>
+          
+          <td>FILE_BYTES_WRITTEN</td>
+          <td align="right">509,526</td>
+          <td align="right">0</td>
+          <td align="right">509,526</td>
+        </tr>
+        
+        <tr>
+          
+          <td>HDFS_BYTES_WRITTEN</td>
+          <td align="right">71,843,256</td>
+          <td align="right">0</td>
+          <td align="right">71,843,256</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="5">
+            Job Counters </td>
+            
+          <td>Launched map tasks</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">9</td>
+        </tr>
+        
+        <tr>
+          
+          <td>SLOTS_MILLIS_REDUCES</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Total time spent by all reduces waiting after reserving slots (ms)</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+          <td>SLOTS_MILLIS_MAPS</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">366,377</td>
+        </tr>
+        
+        <tr>
+          
+          <td>Total time spent by all maps waiting after reserving slots (ms)</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+        <tr>
+          
+            <td rowspan="1">
+            File Output Format Counters </td>
+            
+          <td>Bytes Written</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+          <td align="right">0</td>
+        </tr>
+        
+    </tbody></table>
+
+<hr>Map Completion Graph - 
+ 
+<a href="http://localhost:50030/jobdetails.jsp?jobid=job_201801311456_028&amp;refresh=60&amp;map.graph=off"> close </a>
+<br><embed src="2million8_3_files/taskgraph.svg" style="width:100%" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" width="760" height="260">
+
+
+
+
+<hr>
+
+
+<hr><hr><a href="http://localhost:50030/jobtracker.jsp">Go back to JobTracker</a><br><hr>
+This is <a href="http://hadoop.apache.org/">Apache Hadoop</a> release 1.2.1
+<table border="0"> <tbody><tr>
+    
+
+
+
+
+
+
+
+
+
+</tr></tbody></table></body></html>
